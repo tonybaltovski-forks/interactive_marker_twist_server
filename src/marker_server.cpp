@@ -101,7 +101,6 @@ class MarkerServer
 void MarkerServer::processFeedback(
     const InteractiveMarkerFeedback::ConstPtr &feedback )
 {
-
   geometry_msgs::Twist vel;
 
   // Handle angular change (yaw is the only direction in which you can rotate)
